@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="userNamePassApi.Page1">
+  <StackLayout Orientation="Vertical" VerticalOptions="Center" Spacing="10">
+    <Entry x:Name="usrName" Placeholder="Username" FontSize="20"/>
+    <Entry x:Name="pass" Placeholder="Password" FontSize="20"/>
+    <Button x:Name="btn" Text="Log In" FontSize="20"/>
+    <Label x:Name="lbl" FontSize="20"/>
+  </StackLayout>
+</ContentPage>
